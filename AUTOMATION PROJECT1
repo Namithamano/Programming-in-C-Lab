@@ -1,0 +1,62 @@
+/* PROGRAM BY JISNOY AND JAIDON GILL SHAJAN */
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+ system("COLOR e0");
+  printf("\t HI I AM YOUR CHAT BOT \n\n");
+  printf("CHATBOT: SO I AM HERE TO CHAT WITH YOU, YOU CAN ASK ANYTHING TO ME. I WILL ANSWER TO THE QUESTIONS WHICH I KNOW.\n\tI CAN ALSO HELP YOU IN OPENING WEBSITES,APPS , AND URL,ETC.\n\n");
+
+   char hello;
+    printf("CHATBOT: HELLO HOW CAN I HELP YOU\n");
+    printf("\t\t\t\t\t\t\t\t\t\tFOR BETTER USAGE YOU CAN USE THIS CODES\n\t\t\t\t\t\t\t\t\t\t TO ACCESS THESE EASILY\n\n");
+    printf("\t\t\t\t\t\t\t\t\t\tPRESS\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t1- OPEN GOOGLE CHROME\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t2- OPEN YOUTUBE\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t3- OPEN GOOGLE MEET\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t4- OPEN C PROGRAMMING\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t5- OPEN GRAFICS CLASS\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t6- OPEN CIVIL CLASS\n");
+    printf("\t\t\t\t\t\t\t\t\t\t\t\t7- OPEN WHATSAPP WEB\n");
+    scanf("%c",&hello);
+
+    switch(hello)
+    {
+        case '1': system ("start chrome");
+            printf("\nCHATBOT: OPENING GOOGLE CHROME\n");
+                break;
+
+        case '2' :system ("start www.youtube.com");
+         printf("\nCHATBOT: OPENING YOUTUBE\n");
+                    break;
+
+        case '3' : system (" start https://meet.google.com/?hs=197&pli=1&authuser=0");
+            printf("\nCHATBOT: OPENING GOOGLE MEET\n");https://meet.google.com
+                    break;
+
+        case '4' : system (" start http: URL ");
+              printf("\nCHATBOT : WEBSITE ");
+                   break;
+
+        case '5': system (" start https://URL");
+                 printf("\nCHATBOT : NAME\n");
+                   break;
+
+        case '6': system (" start https:// LINK ");
+                printf("\nCHATBOT : NAME\n");
+                 break;
+
+        case '7': system (" start https://web.whatsapp.com/");
+                printf("\nCHATBOT : OPENING WHATSAPP WEB\n");
+                 break;
+
+
+          default:printf("\nCHATBOT: WHAT DO YOU MEAN\n");
+          scanf("%c",&hello);
+
+
+    }
+    return 0;
+}
